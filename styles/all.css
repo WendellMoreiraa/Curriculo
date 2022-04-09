@@ -203,8 +203,7 @@
   .button__gray:hover {
     background-color: var(--text-color-light);
   }
-  
-
+ 
   .filters__content {
     margin: 32px 0 40px;
     background-color: var(--text-color-lighten);
@@ -233,6 +232,7 @@
   .filters__button:hover {
     background-color: var(--body-color);
   }
+
   
 
   .projects__card {
@@ -293,9 +293,10 @@
   
   .skills__content {
     row-gap: 56px;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content:center;
+    
   }
   
   .skills__title {
@@ -345,7 +346,7 @@
   }
   
   .filters__active[data-content] {
-    display: grid;
+    display: flex;
   }
   
   
