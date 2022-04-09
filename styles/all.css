@@ -259,7 +259,7 @@
     display: grid;
     align-items: flex-end;
     padding:24px 20px;
-    transition: .3s;
+    transition: .4s;
   }
   
   .projects__subtitle, 
@@ -308,7 +308,7 @@
   .skills__box {
     display: flex;
     justify-content: center;
-    column-gap: 48px;
+    
   }
   
   .skills__group {
@@ -347,6 +347,7 @@
   
   .filters__active[data-content] {
     display: flex;
+    flex-direction: column;
   }
   
   
